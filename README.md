@@ -5,7 +5,7 @@
 * cd component-library-starter
 * npm install
 * npm run build
-* npm run dev (then go to http://localhost:3000)
+* npm start (then go to http://localhost:3000)
 
 #### Build & Publish
 

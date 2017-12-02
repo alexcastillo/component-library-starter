@@ -10,7 +10,7 @@
     "build:app": "NODE_ENV=production webpack --progress --colors --config webpack.app.config.js",
     "build:lib": "NODE_ENV=production webpack --progress --colors --config webpack.lib.config.js",
     "build": "npm run bluekit && npm run build:lib && npm run build:app",
-    "dev": "webpack-dev-server --host=\"${DEV_HOST:-127.0.0.1}\" --progress --colors --config webpack.app.config.js & npm run update",
+    "start": "webpack-dev-server --host=\"${DEV_HOST:-127.0.0.1}\" --progress --colors --config webpack.app.config.js & npm run update",
     "test": "./node_modules/.bin/jest"
   },
   "keywords": [
