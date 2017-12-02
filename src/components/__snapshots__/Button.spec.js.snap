@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders normally 1`] = `
+<div
+  className="button  cmEaIb"
+  onClick={[Function]}
+>
+  <button
+    className="button-label hYRqIu"
+    disabled={false}
+    kind="raised"
+    name={undefined}
+    onClick={undefined}
+    type="button"
+  >
+    <span
+      className="button-text jknJrV"
+    >
+      I am a button!
+    </span>
+  </button>
+</div>
+`;

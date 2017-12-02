@@ -1,0 +1,5 @@
+node_modules
+build
+dist
+src/components/componentsIndex.js
+bundle-size.report.txt
